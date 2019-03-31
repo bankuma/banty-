@@ -1,0 +1,62 @@
+.donor{
+	transition:background-color font-size color;
+}
+.donor:hover{
+	background-color:lightgreen;
+	font-size:16px;
+	color:blue;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	padding:5px;
+	margin-left: 5px;
+}
+#x{
+	color:white;
+}
+#w{
+	position:absolute;
+	animation:my 4s;
+	animation-iteration-count: infinite;
+	margin-left: 130px;
+	margin-top: 1px;
+}
+@keyframes my{
+	0%{color:darkgreen;}
+	10%{color:orange;}
+	20%{color:brown;}
+	30%{color:darkblue;}
+	40%{color:gold;}
+	50%{color:crimson;}
+	60%{color:lime;}
+	70%{color:green;}
+	80%{color:red;}
+	90%{color:purple;}
+}
+#v{
+	position:absolute;
+	animation:myf 2s;
+	animation-iteration-count: infinite;
+	margin-left:50px;
+	margin-top:-5px;
+	}
+@keyframes myf{
+	0%{color:darkgreen;}
+	10%{color:orange;}
+	20%{color:brown;}
+	30%{color:red;}
+	50%{color:crimson;}
+	60%{color:lime;}
+	70%{color:green;}
+	80%{color:red;}
+	90%{color:purple;}
+}
+#k:hover{
+	font-size:15px;
+}
+
+
+
+
